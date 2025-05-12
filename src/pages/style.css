@@ -1,0 +1,86 @@
+.dashboard{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.dashboard button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dashboard button:hover {
+  background-color: #0056b3;
+}
+.logout {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout :hover {
+  background-color: rgb(238, 134, 134);
+}
+.dashboard .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+.dashboard .card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+.dashboard .card p {
+  font-size: 1rem;
+  color: #666;
+}
+.dashboard .card button {
+  background-color: #28a745;
+}
+.dashboard .card button:hover {
+  background-color: #218838;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login h1 {
+  font-size: 2rem;
+}
+.login p {
+  font-size: 1.2rem;
+  
+}
+.login input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.login button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login button:hover {
+  background-color: #0056b3;
+}
